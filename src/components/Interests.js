@@ -2,7 +2,7 @@ import '../styles/Interests.css';
 
 function Interests() {
     return (
-        <div className="container center column interest-container">
+        <div className="container center column interest-container" id="Interests">
             <h2>My Interests</h2>
             <div className="container row wrap spc-btwn mt-5 w-80">
                 <div className='w-45'>

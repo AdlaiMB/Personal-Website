@@ -1,9 +1,11 @@
+import '../styles/Footer.css';
+
 function Footer() {
     return (
-        <Footer>
-            This is the footer component.
-        </Footer>
-    )
+        <footer>
+            <p>Copywrite © 2024. All rights reserved</p>
+        </footer>
+    );
 }
 
 export default Footer;
