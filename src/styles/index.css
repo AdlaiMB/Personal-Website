@@ -1,3 +1,9 @@
+:root {
+  --black: #353334;
+  --offwhite: #F7F3E8;
+  --yellow: #F2D770;
+}
+
 /*reset css provided by kevin powell*/
 *, *::before, *::after {
   box-sizing: border-box;
@@ -11,6 +17,7 @@
 
 body {
   min-: 100vh;
+  background-color: var(--offwhite);
 }
 
 img, picture, svg, video {
