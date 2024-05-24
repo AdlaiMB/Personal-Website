@@ -4,11 +4,11 @@ h1 {
     text-decoration-color: var(--yellow);
 }
 
-p {
+.p-hero {
     font-size: 2rem;
 }
 
-img {
+.img-hero {
     width: 600px;
     height: 600px;
 }
@@ -17,7 +17,8 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 8rem 8rem;
+    align-items: center;
+    margin: 10rem 8rem;
 }
 
 .w-50 {

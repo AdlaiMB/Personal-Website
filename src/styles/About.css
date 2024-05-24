@@ -1,0 +1,25 @@
+h2 {
+    font-size: 4rem;
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20rem 8rem;
+}
+
+.p-about {
+    font-size: 1.5rem;
+}
+
+.w-75 {
+    width: 58%;
+}
+
+.img-about {
+    width: 550px;
+    height: 300px;
+}

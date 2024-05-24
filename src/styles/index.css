@@ -1,5 +1,6 @@
 :root {
   --black: #353334;
+  --darker-black: #393738;
   --offwhite: #F7F3E8;
   --yellow: #F2D770;
 }
@@ -23,4 +24,18 @@ body {
 img, picture, svg, video {
   display: block;
   max-width: 100%;
+}
+
+h1, h2 {
+  font-family: "BN Mighty";
+  color: var(--black);
+}
+
+a {
+  font-family: 'Helvetica Neue Medium';
+}
+
+p {
+  font-family: 'Helvetica Neue Light';
+  color: var(--darker-black);
 }
