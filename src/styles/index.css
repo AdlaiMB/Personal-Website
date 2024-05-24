@@ -27,9 +27,23 @@ img, picture, svg, video {
   max-width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: "BN Mighty";
   color: var(--black);
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 a {
