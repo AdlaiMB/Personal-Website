@@ -1,0 +1,29 @@
+h1 {
+    font-size: 5rem; 
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+}
+
+p {
+    font-size: 2rem;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8rem 8rem;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
