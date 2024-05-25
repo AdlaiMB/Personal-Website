@@ -1,0 +1,27 @@
+.img-skills {
+    width: 120px;
+}
+
+.p-skills {
+    margin-top: 1rem;
+    font-family: "Helvetica Neue medium";
+    width: fit-content;
+}
+
+.space-even {
+    justify-content: center;
+}
+
+.skill-item {
+    width: fit-content; 
+}
+
+.fit-content {
+    gap: 1rem;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.skills-container {
+    margin-bottom: 10rem;
+}
