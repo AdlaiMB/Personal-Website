@@ -16,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build --remote origin",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,5 +43,5 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": ""
   },
-  "homepage": "https://adlaimb.github.io/Personal-Website"
+  "homepage": "https://adlaimb.github.io"
 }
