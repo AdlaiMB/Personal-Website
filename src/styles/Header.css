@@ -9,7 +9,6 @@ a {
 }
 
 header {
-    margin-top: 2rem;
     position: sticky;
     top: 2rem;
     z-index: 100;

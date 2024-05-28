@@ -12,7 +12,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 10rem 8rem;
+    height: 100vh;
+    margin-top: -54px;
+    padding: 0 10%;
 }
 
 .w-50 {

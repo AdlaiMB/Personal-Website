@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 
 function Skills() {
     return (
-        <div className="skills-container container column center">
+        <div className="skills-container container column center" id="Skills">
             <h2>My Skills</h2>
             <div className='container row space-even mt-2 fit-content'>
                 <SkillsItem link="/python-icon.svg" title="Python"></SkillsItem>

@@ -3,7 +3,7 @@ import '../styles/Projects.css';
 
 function Projects() {
     return (
-        <div className='container column center' id="Projects">
+        <div className='project-container container column center' id="Projects">
             <h2>My Projects</h2>
             <div className='container column gap-2 center mt-4'>
                 <Card title="CryptoCrowd" description="Cryptocurrency sentiment analysis on tweets. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently tweeting. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand." link="/card-img.webp"></Card>
