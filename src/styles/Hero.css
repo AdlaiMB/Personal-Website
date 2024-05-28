@@ -24,3 +24,7 @@
 .mt-2 {
     margin-top: 2rem;
 }
+
+.animated-bg {
+    z-index: -1;
+}

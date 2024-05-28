@@ -59,3 +59,7 @@ p {
   font-family: 'Helvetica Neue Light';
   color: var(--darker-black);
 }
+
+.about-container, .education-container, .skills-container, .project-container, .interest-container {
+  background: var(--offwhite);
+}

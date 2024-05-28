@@ -1,3 +1,4 @@
+import Particles from './ParticlesBG';
 import '../styles/Hero.css';
 
 function Hero() {
@@ -8,6 +9,9 @@ function Hero() {
                 <p className='p-hero mt-2'>A University of California Riverside Computer Science Undergraduate Student.</p>
             </div>
             <img className='img-hero' src="/personal-website-me.png" alt="" />
+            <div className='animated-bg'>
+                <Particles></Particles>
+            </div>
         </div>
     );
 };
