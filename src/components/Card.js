@@ -3,7 +3,7 @@ import '../styles/Card.css';
 function Card({title, description, link}) {
     return (
         <div className="card-container">
-            <div className="w-40 container column gap-4">
+            <div className="w-40 container column gap-2">
                 <div className="container column gap-1_5">
                     <p className="font-medium p-card-title">{title}</p>
                     <p className="font-medium p-card">Made with:</p>
