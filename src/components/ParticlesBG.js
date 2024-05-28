@@ -60,7 +60,7 @@ const ParticlesBG = () => {
                     },
                     links: {
                         color: "#000000",
-                        distance: 150,
+                        distance: 120,
                         enable: true,
                         opacity: 0.5,
                         width: 1,
@@ -72,7 +72,7 @@ const ParticlesBG = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 2,
                         straight: false,
                     },
                     number: {
@@ -83,7 +83,7 @@ const ParticlesBG = () => {
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 1,
                     },
                     shape: {
                         type: "circle",
