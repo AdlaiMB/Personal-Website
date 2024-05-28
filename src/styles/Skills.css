@@ -1,5 +1,5 @@
 .img-skills {
-    width: 120px;
+    width: 86px;
 }
 
 .p-skills {
@@ -17,8 +17,8 @@
 }
 
 .fit-content {
-    gap: 1rem;
-    width: 50%;
+    gap: 3rem;
+    width: 40%;
     flex-wrap: wrap;
 }
 
