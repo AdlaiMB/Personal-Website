@@ -7,7 +7,7 @@ function Interests() {
             <div className="container row wrap spc-btwn mt-5 w-80">
                 <div className='w-45'>
                     <h3>Embedded Systems</h3>
-                    <p className="mt-1 w-80 p-card">Since I was a kid I’ve always been interested in how devices work such as RC Cars. This interest is what inspired be to take CS120B (Intro to Embedded Systems) and with the knowledge I gained, I was able to build a working Stacker Game. I’m also looking to explore more inside the filed by starting a RC car project.    </p>
+                    <p className="mt-1 w-80 p-card">Since I was a kid I’ve always been interested in how devices work such as RC Cars. This interest is what inspired be to take CS120B (Intro to Embedded Systems) and with the knowledge I gained, I was able to build a working Stacker Game. I’m also looking to explore more inside the field by starting a RC car project.    </p>
                 </div>
                 <div className='w-45'>
                     <h3>Web Development</h3>

@@ -6,6 +6,7 @@
     background-color: var(--blue);
     display: inline-block;
     width: fit-content;
+    transition: 100ms linear all;
 }
 
 .font-medium {
@@ -59,4 +60,8 @@
 
 .card-img:hover {
     transform: rotate(-0.012turn);
+}
+
+.button:hover {
+    background-color: var(--light-blue);
 }

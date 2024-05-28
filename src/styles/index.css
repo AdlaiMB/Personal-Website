@@ -4,6 +4,11 @@
   --offwhite: #F7F3E8;
   --yellow: #F2D770;
   --blue: #274B97;
+  --light-blue: #4060A4;
+}
+
+html {
+  scroll-behavior: smooth; 
 }
 
 /*reset css provided by kevin powell*/

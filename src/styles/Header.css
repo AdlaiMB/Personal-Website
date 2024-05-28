@@ -6,6 +6,7 @@ a {
     font-size: 1rem;
     text-decoration: none;
     color: white;
+    transition: 100ms linear all;
 }
 
 header {
@@ -33,4 +34,8 @@ nav {
 
 .gap-1 {
     gap: 1rem;
+}
+
+li a:hover {
+    color: var(--yellow);
 }
