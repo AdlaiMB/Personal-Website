@@ -9,7 +9,7 @@ function Education() {
                     University of California, Riverside <br/>
                     Graduation: Expected Fall 2024</p>
             </div>
-            <img className='img-education' src='Personal-Website/ucr-logo-image-website.png' alt='' />
+            <img className='img-education' src='/Personal-Website/ucr-logo-image-website.png' alt='' />
         </div>
     );
 }

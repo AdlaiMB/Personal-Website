@@ -8,7 +8,7 @@ function Hero() {
                 <h1>Hi, I'm Adlai Morales-Bravo.</h1>
                 <p className='p-hero mt-2'>A University of California Riverside Computer Science Undergraduate Student.</p>
             </div>
-            <img className='img-hero' src="./Personal-Website/personal-website-me.png" alt="" />
+            <img className='img-hero' src="/Personal-Website/personal-website-me.png" alt="" />
             <div className='animated-bg'>
                 <Particles></Particles>
             </div>
