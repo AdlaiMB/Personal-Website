@@ -1,18 +1,10 @@
-:root {
-  --black: #353334;
-  --darker-black: #393738;
-  --offwhite: #F7F3E8;
-  --yellow: #F2D770;
-  --blue: #274B97;
-  --light-blue: #4060A4;
-}
+/* reset css provided by kevin powell 
+ * https://www.youtube.com/watch?v=cCAtD_BAHNw&t=435s
+*/
 
-html {
-  scroll-behavior: smooth; 
-}
-
-/*reset css provided by kevin powell*/
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -24,42 +16,34 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: var(--offwhite);
 }
 
-img, picture, svg, video {
+img,
+picture,
+svg,
+video {
   display: block;
   max-width: 100%;
 }
 
-h1, h2, h3 {
-  font-family: "BN Mighty";
-  color: var(--black);
-  text-decoration: underline;
-  text-decoration-color: var(--yellow);
-}
-
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 3em;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-a {
-  font-family: 'Helvetica Neue Medium';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
 }
 
 p {
-  font-family: 'Helvetica Neue Light';
-  color: var(--darker-black);
+  max-width: 75ch;
+  text-wrap: pretty;
 }
 
-.about-container, .education-container, .skills-container, .project-container, .interest-container {
-  background: var(--offwhite);
+@media (prefers-reduced-motion: no-preference) {
+  :has(:target) {
+    scroll-behavior: smooth;
+    scroll-padding-top: 3rem;
+  }
 }
+/**/
