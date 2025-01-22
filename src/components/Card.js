@@ -15,7 +15,11 @@ function Card({ title, description, link }) {
             rel="noopener noreferrer"
           >
             GitHub Link
-            <img src="/Personal-Website/icons/button_icon.png" alt="" />
+            <img
+              className="button_icon"
+              src="/Personal-Website/icons/button_icon.png"
+              alt=""
+            />
           </a>
         </div>
       </div>

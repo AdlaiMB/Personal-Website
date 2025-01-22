@@ -41,6 +41,11 @@
   transition: background-color 0.2s ease-in;
 }
 
+.button_icon {
+  width: 20px;
+  height: 20p;
+}
+
 .button:hover {
   background-color: var(--active-blue);
 }
@@ -52,5 +57,10 @@
 
   .card {
     padding: var(--space-m) 0;
+  }
+
+  .button_icon {
+    width: 15px;
+    height: 15px;
   }
 }
