@@ -6,15 +6,13 @@ function Footer() {
     <footer className="footer_area">
       <div className="footer">
         <section className="top_section">
-          <div>
+          <div className="personal_section">
             <p className="bold_font small_font black_text">
               Adlai Morales-Bravo
             </p>
             <p className="italic_font small_font black_text">
-              Kevin Hart -{" "}
-              <q>
-                Any oppurtunity given shall be taken serious from that point on.
-              </q>
+              Juana Inés de la Cruz-{" "}
+              <q>No estudio para saber más, sino para ignorar menos.</q>
             </p>
           </div>
           <div className="links_section">

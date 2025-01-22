@@ -7,6 +7,10 @@
   justify-content: space-between;
 }
 
+.personal_section {
+  width: 50%;
+}
+
 .bottom_section {
   margin-top: var(--space-l);
   gap: var(--space-l);
