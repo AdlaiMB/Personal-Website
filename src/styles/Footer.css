@@ -50,3 +50,9 @@
     width: 85%;
   }
 }
+
+@media (width <= 430px) {
+  .personal_section {
+    width: 45%;
+  }
+}
