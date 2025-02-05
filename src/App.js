@@ -137,7 +137,6 @@ function App() {
                 </p>
               </div>
             </div>
-            /web
             <div className="w-45 text_column_section w-change">
               <div className="text_column">
                 <h2>Web Development</h2>

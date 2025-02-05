@@ -248,7 +248,7 @@ ul {
     font-size: 14px;
   }
 
-  .main {
+  /*.main {
     border: 2px solid blue;
   }
 
@@ -266,7 +266,7 @@ ul {
 
   .future {
     border: 2px solid blue;
-  }
+  }*/
 
   .layout {
     grid-template-columns: auto 80% auto;
@@ -283,17 +283,17 @@ ul {
     flex-direction: column-reverse;
     justify-content: center;
     gap: var(--space-3xl);
-    border: 2px solid green;
+    /*border: 2px solid green;*/
   }
 
   .about {
     flex-direction: column;
     justify-content: center;
     gap: var(--space-3xl);
-    border: 2px solid green;
+    /*border: 2px solid green;*/
   }
 
-  .skills {
+  /*.skills {
     border: 2px solid green;
   }
 
@@ -303,11 +303,11 @@ ul {
 
   .future {
     border: 2px solid green;
-  }
+  }*/
 
   .layout {
     grid-template-columns: auto 85% auto;
-    grid-template-rows: 100vh 80vh 65vh 100vh 110vh 27vh;
+    grid-template-rows: 100vh 80vh 65vh 90vh 100vh 27vh;
   }
 
   .w-change {
@@ -335,7 +335,7 @@ ul {
     font-size: 12px;
   }
 
-  .main {
+  /*.main {
     border: 2px solid white;
   }
 
@@ -353,7 +353,7 @@ ul {
 
   .future {
     border: 2px solid white;
-  }
+  }*/
 
   .skill_row {
     width: 350px;
