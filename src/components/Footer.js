@@ -19,7 +19,24 @@ function Footer() {
             <div>
               <p className="bold_font small_font black_text">Resources</p>
               <ul className="small_font links">
-                <li>NavBar</li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/watch?v=obib4ka06y0&list=LL&index=2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    NavBar Tutorial
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/watch?v=d9ZoPFlXZ2w"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Flat Character Design
+                  </a>
+                </li>
               </ul>
             </div>
             <div>

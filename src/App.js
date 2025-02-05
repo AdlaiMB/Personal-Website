@@ -93,19 +93,19 @@ function App() {
           <h1>Projects</h1>
           <div className="row card_row_column">
             <Card
-              title="UCR Northstar"
-              description="A UCR Website and App that allows students to find food/restrooms/buildings in a easier way. This is to help incoming and current students be more connected to the UCR campus."
-              link="/"
+              title="MedAid | Android Mobile App"
+              description="An Android mobile application where users can search, review, and recommend doctors and other medical experts in their area using Parse as its backend. Finalist at CodePath Nationals Fall 2021."
+              link="https://github.com/DrSearch-Team/MedAid"
             />
             <Card
-              title="UCR CS164 (Computer Networks)"
-              description="A UCR computer networks project to implement TCP like behavior in a UDP server. Uses c++ to create the project. Provides reliable data transfer using timers and bit for erros."
-              link="/"
+              title="UDP Server | UCR CS164"
+              description="A UDP server with TCP-like behavior implemented in C++. A projected created in my UCR CS164 Computer Networks class to further my understanding of computer networks and how the transport layer works under the hood."
+              link="https://github.com/"
             />
             <Card
-              title="CodePath Andrioid Mobile App"
-              description="A andriod mobile app created in Codepath course. The app is to help facilitate the search for docotrs based of previous reviews. Ended up in the top 10 in a codepath competition."
-              link="/"
+              title="Amazon Storefront DB | UCR CS166"
+              description="A database-driven application in Java for managing user accounts, stores, products, and orders. It allows users to create accounts, log in, and perform various actions based on their user type."
+              link="https://github.com/deet5/Amazon-Storefront-DB"
             />
           </div>
         </section>
@@ -137,11 +137,12 @@ function App() {
                 </p>
               </div>
             </div>
+            /web
             <div className="w-45 text_column_section w-change">
               <div className="text_column">
                 <h2>Web Development</h2>
                 <p>
-                  As a Computer Science major, I’m am naturally interested in
+                  As a Computer Science major, I am naturally interested in
                   building software. I enjoy it more when the software I build
                   is visible and allows for others to experience it. This is
                   what pushes me to learn more about the large Web Development
