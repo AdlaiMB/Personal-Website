@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <SlideTabs></SlideTabs>
-      <div className="layout">
-        <section className="main" id="Home">
+      <div>
+        <section className="main pt_section h-100" id="Home">
           <div className="text_column w-45 w-change">
             <h1>Hi, I'm Adlai Morales-Bravo</h1>
             <p>
@@ -46,7 +46,7 @@ function App() {
             alt=""
           />
         </section>
-        <section className="about" id="About">
+        <section className="about pt_section p-m" id="About">
           <img
             className="w-35 image"
             src="/Personal-Website/PersonalWebsite-About-Education.png"
@@ -75,7 +75,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="skills" id="Skills">
+        <section className="skills p-m" id="Skills">
           <h1>Skills</h1>
           <div className="row skill_row">
             <Pod img="python" name="Python" />
@@ -89,7 +89,7 @@ function App() {
             <Pod img="git" name="Git" />
           </div>
         </section>
-        <section className="projects" id="Projects">
+        <section className="projects p-m" id="Projects">
           <h1>Projects</h1>
           <div className="row card_row_column">
             <Card
@@ -109,7 +109,7 @@ function App() {
             />
           </div>
         </section>
-        <section className="future" id="Future">
+        <section className="future pt_section p-l" id="Future">
           <h1>Future</h1>
           <div className="row row_column_change seperate_text_column">
             <div className="w-45 text_column_section w-change">

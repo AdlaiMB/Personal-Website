@@ -1,5 +1,6 @@
 .footer {
-  width: 65%;
+  width: 70%;
+  padding: var(--space-l) 0;
 }
 
 .top_section {
