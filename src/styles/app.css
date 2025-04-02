@@ -31,6 +31,7 @@ a {
   font-optical-sizing: auto;
   font-weight: var(--secondary-weight);
   font-variation-settings: "wdht" 100;
+  font-size: 1rem;
 }
 
 .black-font-weight {
@@ -67,8 +68,73 @@ a {
   font-size: 0.833rem; /* 13px */
 }
 
+.xsmall-font-size {
+  font-size: 0.694rem; /* 11px */
+}
+
 .footer-header-font-size {
   font-size: 1.44rem; /* 23px */
+}
+
+.card-header-font-size {
+  font-size: 1.44rem; /* 23px */
+}
+
+.pill-shape {
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* cards */
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 18px;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all 0.1s ease-in;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  height: 300px;
+  border-radius: 16px;
+  padding: 24px;
+  justify-content: space-between;
+  border: 2px solid black;
+  align-items: baseline;
+}
+
+.project-card-description {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.project-card-info {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 /* section styles */
@@ -77,8 +143,8 @@ a {
   margin: 0 auto; /* Center the main content */
   display: flex;
   flex-direction: column;
-  gap: 150px;
-  margin-bottom: 150px;
+  gap: 200px;
+  margin-bottom: 250px;
 }
 
 .about-content {
@@ -87,10 +153,25 @@ a {
   gap: 16px;
 }
 
+.skill-content {
+  display: grid;
+  gap: 8px; /* Space between grid items */
+  grid-template-areas:
+    "first second third"
+    "fourth fifth sixth"
+    "seventh eighth ninth";
+}
+
+.project-content {
+  display: grid;
+  gap: 16px; /* Space between grid items */
+  grid-template-areas: "first second third";
+}
+
 .future-content {
   width: 65%;
   display: grid;
-  gap: 24px; /* Space between grid items */
+  gap: 24px 120px; /* Space between grid items */
   grid-template-areas:
     "first second"
     "third .";
@@ -115,6 +196,7 @@ a {
   display: flex;
   flex-direction: column; /* Stack skills vertically on smaller screens */
   align-items: center;
+  gap: 40px;
 }
 
 .project-section {
@@ -122,13 +204,14 @@ a {
   flex-direction: column; /* Stack projects vertically on smaller screens */
   align-items: center;
   text-align: center;
+  gap: 40px;
 }
 
 .future-section {
   display: flex;
   flex-direction: column; /* Stack future aspirations vertically on smaller screens */
   align-items: center;
-  gap: 24px;
+  gap: 40px;
 }
 
 .footer-section {
