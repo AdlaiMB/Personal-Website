@@ -77,3 +77,16 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/*11. Remove list styles for ul*/
+ul {
+  list-style: none;
+  padding: 0; /* Ensure no padding on the left */
+  margin: 0; /* Ensure no margin */
+}
+
+/*12. Remove link styles for a tags*/
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent */
+}
