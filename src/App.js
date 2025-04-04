@@ -1,4 +1,6 @@
 import "./styles/app.css";
+import SkillCard from "./components/SkillCard";
+import ProjectCard from "./components/ProjectCard";
 
 function App() {
   return (
@@ -91,96 +93,15 @@ function App() {
         <div id="skill-section" className="skill-section">
           <h2>Skills</h2>
           <div className="skill-content">
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/python.svg"
-                alt="python"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">Python</p>
-            </div>
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/postgresql.svg"
-                alt="postgresql"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">Postgresql</p>
-            </div>
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/git.svg"
-                alt="git"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">Git</p>
-            </div>
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/node.svg"
-                alt="node"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">Node.js</p>
-            </div>
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/mongo.svg"
-                alt="mongo"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">Mongo</p>
-            </div>
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/js.svg"
-                alt="javascript"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">Javascript</p>
-            </div>
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/html.svg"
-                alt="html"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">HTML</p>
-            </div>
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/css.svg"
-                alt="css"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">CSS</p>
-            </div>
-            <div className="skill-card">
-              <div className="bg"></div>
-              <img
-                src="/Personal-Website/skills/arduino.svg"
-                alt="arduino"
-                width="68"
-                height="68"
-              />
-              <p className="semibold-font-weight">Arduino</p>
-            </div>
+            <SkillCard name="Python" link="python.svg" />
+            <SkillCard name="Postrgresql" link="postgresql.svg" />
+            <SkillCard name="Git" link="git.svg" />
+            <SkillCard name="Node.js" link="node.svg" />
+            <SkillCard name="Mongo" link="mongo.svg" />
+            <SkillCard name="Javascript" link="js.svg" />
+            <SkillCard name="HTML" link="html.svg" />
+            <SkillCard name="CSS" link="css.svg" />
+            <SkillCard name="Arduino" link="arduino.svg" />
           </div>
         </div>
         <div id="project-section" className="project-section">
@@ -192,81 +113,24 @@ function App() {
             </p>
           </section>
           <div className="project-content">
-            <div className="project-card">
-              <div className="project-card-description">
-                <p className="bold-font-weight card-header-font-size card-text">
-                  Title
-                </p>
-                <p className="card-text">
-                  This is the short description for this project idk what it
-                  will say but I just want some bullshit in here to see how it
-                  will look for actual projects
-                </p>
-              </div>
-              <div className="project-card-info">
-                <section>
-                  <p className="xsmall-font-size medium-font-weight card-text">
-                    Tech Stack:
-                  </p>
-                  <div>
-                    <p className="xsmall-font-size pill-shape">Python</p>
-                  </div>
-                </section>
-                <a href="/" className="button">
-                  Github
-                </a>
-              </div>
-            </div>
-            <div className="project-card">
-              <div className="project-card-description">
-                <p className="bold-font-weight card-header-font-size card-text">
-                  Title
-                </p>
-                <p className="card-text">
-                  This is the short description for this project idk what it
-                  will say but I just want some bullshit in here to see how it
-                  will look for actual projects
-                </p>
-              </div>
-              <div className="project-card-info">
-                <section>
-                  <p className="xsmall-font-size medium-font-weight card-text">
-                    Tech Stack:
-                  </p>
-                  <div>
-                    <p className="xsmall-font-size pill-shape">Python</p>
-                  </div>
-                </section>
-                <a href="/" className="button">
-                  Github
-                </a>
-              </div>
-            </div>
-            <div className="project-card">
-              <div className="project-card-description">
-                <p className="bold-font-weight card-header-font-size card-text">
-                  Title
-                </p>
-                <p className="card-text">
-                  This is the short description for this project idk what it
-                  will say but I just want some bullshit in here to see how it
-                  will look for actual projects
-                </p>
-              </div>
-              <div className="project-card-info">
-                <section>
-                  <p className="xsmall-font-size medium-font-weight card-text">
-                    Tech Stack:
-                  </p>
-                  <div>
-                    <p className="xsmall-font-size pill-shape">Python</p>
-                  </div>
-                </section>
-                <a href="/" className="button">
-                  Github
-                </a>
-              </div>
-            </div>
+            <ProjectCard
+              title="MedAid"
+              description="An Android mobile application where users can search, review, and recommend doctors and other medical experts in their area using Parse as its backend. Finalist at CodePath Nationals Fall 2021."
+              stack={["Java", "Firebase", "Android Studio"]}
+              link="https://github.com/DrSearch-Team/MedAid"
+            />
+            <ProjectCard
+              title="UDP Server"
+              description="A UDP server with TCP-like behavior implemented in C++. A projected created in my UCR CS164 Computer Networks class to further my understanding of computer networks and how the transport layer works under the hood."
+              stack={["C++"]}
+              link="/"
+            />
+            <ProjectCard
+              title="Amazon Storefront DB"
+              description="A database-driven application in Java for managing user accounts, stores, products, and orders. It allows users to create accounts, log in, and perform various actions based on their user type."
+              stack={["C++"]}
+              link="https://github.com/deet5/Amazon-Storefront-DB"
+            />
           </div>
         </div>
         <div id="future-section" className="future-section">
