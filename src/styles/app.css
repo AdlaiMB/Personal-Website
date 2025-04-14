@@ -604,10 +604,9 @@ a {
 /* mobile */
 @media (max-width: 768px) {
   /* adjust root variables*/
-  html {
-    font-size: 13px;
+  /* html {
     /* border: 2px solid pink; */
-  }
+  /* }  */
 
   /* adjust logo image */
 
@@ -684,5 +683,73 @@ a {
     width: 38%;
     flex-wrap: wrap;
     gap: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  /* adjust root variables*/
+  /* html {
+    /* border: 2px solid orange; */
+  /* }  */
+
+  /* adjust logo image */
+
+  /* adjust hero section */
+  .portrait-image {
+    height: 300px;
+  }
+
+  .hero-content {
+    width: 90%;
+  }
+
+  /* adjust about section */
+  .about-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center align items */
+    gap: var(--header-gap);
+  }
+
+  .about-content {
+    width: 80%;
+  }
+
+  .about-image {
+    height: 280px; /* Further reduce the height for smaller screens */
+  }
+
+  /* adjust skills section */
+
+  /* adjust projects section */
+
+  .project-card {
+    height: 280px;
+    width: 100%;
+  }
+
+  /* adjust future section */
+  .future-content {
+    width: 80%; /* Make future section full width on mobile */
+    grid-template-areas:
+      "first"
+      "second"
+      "third";
+  }
+
+  /* adjust footer section */
+  .footer-section {
+    padding-bottom: 50px;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0px 16px;
+  }
+
+  .footer-links {
+    width: 38%;
+    flex-wrap: wrap;
+    gap: 24px;
   }
 }

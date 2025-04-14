@@ -22,7 +22,7 @@ function App() {
           </li>
           <li>
             <a className="medium-font-weight nav-link" href="#about-section">
-              About Me
+              About
             </a>
           </li>
           <li>
