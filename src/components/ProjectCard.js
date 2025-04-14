@@ -20,7 +20,12 @@ export default function ProjectCard({ title, description, stack, link }) {
             ))}
           </div>
         </section>
-        <a href={link} className="button">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={link}
+          className="button"
+        >
           Github
         </a>
       </div>
