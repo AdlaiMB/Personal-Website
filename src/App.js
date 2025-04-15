@@ -122,13 +122,13 @@ function App() {
             <ProjectCard
               title="UDP Server"
               description="A UDP server with TCP-like behavior implemented in C++. A projected created in my UCR CS164 Computer Networks class to further my understanding of computer networks and how the transport layer works under the hood."
-              stack={["C++"]}
-              link="/"
+              stack={["C"]}
+              link="https://github.com/AdlaiMB/CS164-UDP-Server"
             />
             <ProjectCard
               title="Amazon Storefront DB"
               description="A database-driven application in Java for managing user accounts, stores, products, and orders. It allows users to create accounts, log in, and perform various actions based on their user type."
-              stack={["C++"]}
+              stack={["Java", "PostgreSQL"]}
               link="https://github.com/deet5/Amazon-Storefront-DB"
             />
           </div>
